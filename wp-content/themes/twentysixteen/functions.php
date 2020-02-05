@@ -585,3 +585,22 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
+
+/**
+ * Hide WordPress Version number from visitors
+ * By applying the two methods, we hide or remove the WordPress
+ * version number from the header, RSS, CSS, and scripts.
+ */
+function remove_wordpress_version() {
+    return '';
+}
+add_filter('the_generator', 'remove_wordpress_version');
+
+// Pick out the version number from scripts and styles
+function remove_version_from_style_js( $src ) {
+    if ( strpos( $src, 'ver=' . get_bloginfo( 'version' ) ) )
+        $src = remove_query_arg( 'ver', $src );
+    return $src;
+}
+add_filter( 'style_loader_src', 'remove_version_from_style_js');
+add_filter( 'script_loader_src', 'remove_version_from_style_js');
