@@ -1,7 +1,7 @@
 [![WordPress](wp-admin/images/wordpress-logo.png)](https://wordpress.org/) {#logo}
 ==========================================================================
 
-#Semantic Personal Publishing Platform
+Semantic Personal Publishing Platform
 
 First Things First
 ------------------
