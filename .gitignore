@@ -50,7 +50,7 @@ wp-content/mysql.sql
 /db-config.php
 /index.php
 /license.txt
-/readme.html
+#/readme.html
 /wp-activate.php
 /wp-app.php
 /wp-atom.php
