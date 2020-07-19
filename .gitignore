@@ -90,6 +90,11 @@ wp-content/mysql.sql
 /wp-content/themes/twentytwenty
 /wp-content/themes/wordpress-blank/
 /wp-content/themes/storefront/
+/wp-content/themes/genesis/
+/wp-content/themes/daily-dish-pro/
+/wp-content/themes/eleven40-pro/
+/wp-content/themes/genesis-sample/
+/wp-content/themes/news-pro/
 
 
 /wp-content/themes/index.php
@@ -97,10 +102,7 @@ wp-content/mysql.sql
 /wp-content/plugins/akismet/
 
 
-/wp-content/themes/soss-catalog-theme/node_modules/
-/wp-content/themes/soss-catalog-theme/.babelrc/
-/wp-content/themes/soss-catalog-theme/.bowerrc/
-/wp-content/themes/soss-catalog-theme/dist/
+
 
 
 
